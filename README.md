@@ -6,7 +6,7 @@
 > 
 
 ## 基础架构如下：
-
+![](https://github.com/Xunzhuo/AirSpider/rwa/master/架构设计.png)
 
 
 ## 模块解释：
@@ -37,7 +37,7 @@
 + NLP MiddleWare：负责NLP模块的策略处理
 
 ## 分布式架构：
-
+![](https://github.com/Xunzhuo/AirSpider/rwa/master/分布式架构.png)
 
 
 ### Redis作为Master，进行任务的分发，任务去重，各个AirSpider作为Slaver，分别工作如下
