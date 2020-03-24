@@ -25,8 +25,13 @@ class dyttSpider(object):
 
     # spider模块 雏形
     def spider(self, response):
-        # soup = BeautifulSoup(response, 'lxml')
+        soup = BeautifulSoup(response, 'lxml')
+        URL_list = soup.find_all('a')
         URLs = []
+        for url in URL_list:
+            print(url.get_text() + ' ' + self.start_URL + url.get('href'))
+            URLs.append(self.start_URL + url.get('href'))
+        print(str(len(URL_list))+' in total')
         Items = {}
         return URLs, Items
 
