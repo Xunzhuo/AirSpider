@@ -30,7 +30,11 @@ class dyttSpider(object):
         URLs = []
         for url in URL_list:
             print(url.get_text() + ' ' + self.start_URL + url.get('href'))
-            URLs.append(self.start_URL + url.get('href'))
+            res = self.start_URL + url.get('href')
+            if 'magnet' in res:
+                pass
+            else:
+                URLs.append(res)
         print(str(len(URL_list))+' in total')
         Items = {}
         return URLs, Items
