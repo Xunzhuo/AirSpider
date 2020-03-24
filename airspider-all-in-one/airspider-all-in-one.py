@@ -15,7 +15,7 @@ class dyttSpider(object):
     # 初始化
     def __init__(self):
         self.URL_UNPARSED.add(self.start_URL)
-        logging.basicConfig(level=logging.INFO)
+        logging.basicConfig(level=logging.INFO, format='%(asctime)s  %(filename)s : %(funcName)s  %(message)s')
 
     # 下载器模块 雏形
     def downloader(self, request):
@@ -28,15 +28,15 @@ class dyttSpider(object):
         soup = BeautifulSoup(response, 'lxml')
         URL_list = soup.find_all('a')
         URLs = []
+        Items = {}
         for url in URL_list:
-            print(url.get_text() + ' ' + self.start_URL + url.get('href'))
+            print("Found " + url.get_text() + ' ' + self.start_URL + url.get('href'))
             res = self.start_URL + url.get('href')
             if 'magnet' in res:
                 pass
             else:
                 URLs.append(res)
-        print(str(len(URL_list))+' in total')
-        Items = {}
+        print(str(len(URL_list)) + ' in total')
         return URLs, Items
 
     # 调度器模块 雏形
@@ -78,10 +78,24 @@ class dyttSpider(object):
 
     # 核心模块 雏形
     def core(self):
+        logging.info("\n"
+                     "        /$$$$$$  /$$                  /$$$$$$            /$$       /$$                            /$$$$$$   /$$                           /$$                     /$$\n"
+"       /$$__  $$|__/                 /$$__  $$          |__/      | $$                           /$$__  $$ | $$                          | $$                    | $$\n"
+"      | $$  \ $$ /$$  /$$$$$$       | $$  \__/  /$$$$$$  /$$  /$$$$$$$  /$$$$$$   /$$$$$$       | $$  \__//$$$$$$    /$$$$$$   /$$$$$$  /$$$$$$    /$$$$$$   /$$$$$$$\n"
+"      | $$$$$$$$| $$ /$$__  $$      |  $$$$$$  /$$__  $$| $$ /$$__  $$ /$$__  $$ /$$__  $$      |  $$$$$$|_  $$_/   |____  $$ /$$__  $$|_  $$_/   /$$__  $$ /$$__  $$\n"
+"      | $$__  $$| $$| $$  \__/       \____  $$| $$  \ $$| $$| $$  | $$| $$$$$$$$| $$  \__/       \____  $$ | $$      /$$$$$$$| $$  \__/  | $$    | $$$$$$$$| $$  | $$\n"
+"      | $$  | $$| $$| $$             /$$  \ $$| $$  | $$| $$| $$  | $$| $$_____/| $$             /$$  \ $$ | $$ /$$ /$$__  $$| $$        | $$ /$$| $$_____/| $$  | $$\n"
+"      | $$  | $$| $$| $$            |  $$$$$$/| $$$$$$$/| $$|  $$$$$$$|  $$$$$$$| $$            |  $$$$$$/ |  $$$$/|  $$$$$$$| $$        |  $$$$/|  $$$$$$$|  $$$$$$$\n"
+"      |__/  |__/|__/|__/             \______/ | $$____/ |__/ \_______/ \_______/|__/             \______/   \___/   \_______/|__/         \___/   \_______/ \_______/\n"
+"                                              | $$                                                                                                                   \n"
+"                                              | $$                                                                                                                   \n"
+"                                              |__/                                                                                                                   \n")
         logging.info("AirSpider is starting and parsing the website: %s" % self.start_URL)
 
         while len(self.URL_UNPARSED) != 0:
             URL = self.scheduler_Dispatcher()
+            if URL == 'end':
+                break
             Response = self.downloader(URL)
             URLs, Items = self.spider(Response)
             if len(URLs) != 0:
