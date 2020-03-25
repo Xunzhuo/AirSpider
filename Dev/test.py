@@ -8,17 +8,16 @@ url = "http://www.zuowen.com"
 length = 1000
 
 
-def greq(url):
-    req = [grequests.get(url)]
+def greq(urler):
+    req = [grequests.get(urler)]
     rep = grequests.map(req)
-    res = rep[0].text
-    return res
+    print('ok')
 
 
-def mul_gre(x):
-    divde = int(length / x)
-    x = [grequests.get(url) for i in range(divde)]
-    grequests.map(x)
+def mul_gre(leng):
+    divde = int(length / leng)
+    req = [grequests.get(url) for x in range(divde)]
+    grequests.map(req)
 
 
 if __name__ == '__main__':
@@ -73,18 +72,18 @@ if __name__ == '__main__':
     # x10.join()
     # tim8 = time.time()
     # T4 = tim8 - tim7
-# 多进程异步IO
-    # tim10 = time.time()
-    # p = Pool(6)
-    # for i in range(6):
-    #     p.apply_async(mul_gre, args=(6,))
-    # p.close()
-    # p.join()
-    # tim11 = time.time()
-    # T5 = tim11 - tim10
+#多进程异步IO
+    tim10 = time.time()
+    p = Pool(6)
+    for i in range(6):
+        p.apply_async(mul_gre, args=(6,))
+    p.close()
+    p.join()
+    tim11 = time.time()
+    T5 = tim11 - tim10
 
     # print("unformal grequests used " + str(T2))
     # print("requests used " + str(T1))
     print("formal grequests used " + str(T3))
     # print("Multi-Threading Asycio " + str(T4))
-    # print("Multi-Process Asycio " + str(T5))
+    print("Multi-Process Asycio " + str(T5))

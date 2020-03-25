@@ -8,6 +8,7 @@ class dyttSpider(object):
     start_URL = 'https://www.dy2018.com/'
     headers = {'User-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) '
                              'Chrome/80.0.3987.149 Safari/537.36'}
+
     # URL去重和URL判断是否爬取过：采用的方式是比较基础的set，后面要采用BoomFilter代替此方法
     URL_PARSED = set()
     URL_UNPARSED = set()
