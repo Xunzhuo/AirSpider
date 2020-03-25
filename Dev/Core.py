@@ -1,4 +1,4 @@
-import requests
+import grequests
 import lxml
 from bs4 import BeautifulSoup
 import logging
@@ -17,11 +17,12 @@ class dyttSpider(object):
         self.URL_UNPARSED.add(self.start_URL)
         logging.basicConfig(level=logging.INFO, format='%(asctime)s  %(filename)s : %(funcName)s  %(message)s')
 
-    # 下载器模块 雏形
+    # 下载器模块 雏形 采用协程 异步IO
     def downloader(self, request):
-        response = requests.get(request, headers=self.headers)
-        response.encoding = 'gbk'
-        return response.text
+        request = [grequests.get(request, headers=self.headers)]
+        response = grequests.map(request)
+        res = response[0].text
+        return res
 
     # spider模块 雏形
     def spider(self, response):
@@ -78,7 +79,7 @@ class dyttSpider(object):
 
     # 核心模块 雏形
     def core(self):
-        logging.info("\n"
+        logging.info("\n\n"
                      "        /$$$$$$  /$$                  /$$$$$$            /$$       /$$                            /$$$$$$   /$$                           /$$                     /$$\n"
 "       /$$__  $$|__/                 /$$__  $$          |__/      | $$                           /$$__  $$ | $$                          | $$                    | $$\n"
 "      | $$  \ $$ /$$  /$$$$$$       | $$  \__/  /$$$$$$  /$$  /$$$$$$$  /$$$$$$   /$$$$$$       | $$  \__//$$$$$$    /$$$$$$   /$$$$$$  /$$$$$$    /$$$$$$   /$$$$$$$\n"
