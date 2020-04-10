@@ -1,4 +1,0 @@
-python 正在学
-html 没学
-爬虫 正在学 
-redis 没学
