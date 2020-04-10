@@ -1,2 +1,5 @@
-在学进程和线程
-2test
+python 1
+html 1
+爬虫 1
+Redis 0
+设计模式 0
