@@ -1,0 +1,2 @@
+已学：html,python,爬虫
+未学：redis
