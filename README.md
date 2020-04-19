@@ -45,6 +45,7 @@
 
 
 ## 工作流如下：
+![基础架构](Docs/flow.png)
 
 1. Spiders将初始URL指定，封装成Request
 
