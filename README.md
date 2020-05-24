@@ -1,5 +1,5 @@
 <h1 align=center>
-<img src="https://picreso.oss-cn-beijing.aliyuncs.com/air.png" alt="air" style="zoom:33%;" />
+<img src="https://picreso.oss-cn-beijing.aliyuncs.com/air.png" alt="air" width='120px' height='120px' />
 </h1>
 
 # AirSpider 
