@@ -2,7 +2,7 @@ import grequests
 import lxml
 from bs4 import BeautifulSoup
 import logging
-
+import selenium
 
 class dyttSpider(object):
     start_URL = 'https://www.dy2018.com/'
