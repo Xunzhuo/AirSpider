@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://picreso.oss-cn-beijing.aliyuncs.com/air.png" width="150px">
-    <h1 align="center">AirSpider</h1>
+    <h1 align="center" style="color: aqua">AirSpider</h1>
     <p align="center">
         AirSpider, a distributed async web crawler framework based on redis🕷️
       <br>
@@ -11,7 +11,7 @@
 
 
 
-# Introduction
+## Introduction
 
 > + AirSpider是一款面向开发者的一个高性能异步爬虫框架
 > + AirSpider模块之间耦合性低，内聚性高，方便扩展，并且工作流有条不紊
@@ -21,17 +21,17 @@
 
 
 
-# Document
+## Document
 
 
 
-## Basic Architecture：
+### Basic Architecture：
 
 ![基础架构](Docs/basis.png)
 
-### AirSpider共有6大模块，三小模块：
+#### AirSpider共有6大模块，三小模块：
 
-### 6大模块：
+#### 6大模块：
 
 1. 核心模块：Core：
    + 作为核心引擎，连接了其他几大模块，进行工作，工作流以它为中枢进行
@@ -46,15 +46,15 @@
 6. NLP模块：NLP processor
    + 作为附加的模块，主要是对下游数据进行分析，挖掘
 
-### 3小模块：
+#### 3小模块：
 
-#### 三个中间件：
+##### 三个中间件：
 
 + Spider MiddleWare： 负责对解析模块进行额外处理
 + Downloader MiddleWare： 负责下载模块的反爬虫策略处理
 + NLP MiddleWare：负责NLP模块的策略处理
 
-## Distributed Architecture：
+### Distributed Architecture：
 ![分布式架构](Docs/cloud.png)
 
 
@@ -97,6 +97,6 @@
 
 14. 对Piplines里面的数据进行持久化处理
 
-# Announcement
+## Announcement
 
 开发预期在三个月内完成大体 功能
