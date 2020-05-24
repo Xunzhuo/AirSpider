@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://picreso.oss-cn-beijing.aliyuncs.com/air.png" width="150px">
-    <h1 align="center" style="color: aqua">AirSpider</h1>
+    <h1 align="center"><img src="https://picreso.oss-cn-beijing.aliyuncs.com/font.png" /></h1>
     <p align="center">
         AirSpider, a distributed async web crawler framework based on redis🕷️
       <br>
