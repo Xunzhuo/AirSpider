@@ -1,15 +1,13 @@
 <p align="center">
     <img src="https://picreso.oss-cn-beijing.aliyuncs.com/air.png" width="150px">
-    <h1 align="center"><img src="https://picreso.oss-cn-beijing.aliyuncs.com/font.png" /></h1>
-    <p align="center">
+    <h1 align="center"><img src="https://picreso.oss-cn-beijing.aliyuncs.com/fonts.png" /></h1>
+    <p align="center" style="font-weight:bold">
         AirSpider, a distributed async web crawler framework based on redis🕷️
       <br>
      		Distributed🌍  -  Asynchronou🏃  -  Light☁️  -  Fast⚡️
       <br>
   <br>
 </p>    
-
-
 
 ## Introduction
 
@@ -18,8 +16,6 @@
 > + 基于Redis进行任务分发，任务去重，并且实现分布式。
 > + 作为一个定制化爬虫框架，用户只需要编写指定模块，便可以开始高性能的爬虫任务
 >
-
-
 
 ## Document
 
