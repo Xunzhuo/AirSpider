@@ -2,7 +2,7 @@
     <img src="https://picreso.oss-cn-beijing.aliyuncs.com/air.png" width="150px">
     <h1 align="center"><img src="https://picreso.oss-cn-beijing.aliyuncs.com/fonts.png" /></h1>
     <p align="center" style="font-weight:bold">
-        AirSpider, a distributed async web crawler framework based on redis🕷️
+        AirSpider🕷️, a distributed async web crawler framework based on redis🕷️
       <br>
      		Distributed🌍  -  Asynchronou🏃  -  Light☁️  -  Fast⚡️
       <br>
