@@ -4,7 +4,7 @@
     <p align="center" style="font-weight:bold">
         AirSpider🕷️, a distributed async web crawler framework based on redis🕷️
       <br>
-     		Distributed🌍  -  Asynchronou🏃  -  Light☁️  -  Fast⚡️
+     		Distributed🌍  -  Asynchronous🏃  -  Light☁️  -  Fast⚡️
       <br>
   <br>
 </p>    
