@@ -14,7 +14,6 @@
        <br>
      		Distributed🌍  -  Asynchronous🏃  -  Light☁️  -  Fast⚡️ - Easy😄
       <br>
-  <br>
       <img src="http://picreso.oss-cn-beijing.aliyuncs.com/codepreview.png">
 </p>    
 
