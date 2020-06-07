@@ -31,7 +31,7 @@
 
 ## Features🌲
 
-+ **Quick to Start☑️**
++ **Quick to Start ☑️**
 + **Low Coupling ☑️**
 + **High Cohesion ☑️**
 + **Easy Expansion ☑️**
