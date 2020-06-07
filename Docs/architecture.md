@@ -1,6 +1,6 @@
 ### Central Architecture🌞：
 
-![](https://picreso.oss-cn-beijing.aliyuncs.com/basis.png)
+![](http://picreso.oss-cn-beijing.aliyuncs.com/basis.png)
 
 #### AirSpider has 6 modules and 3 sub-modules：
 
@@ -29,7 +29,7 @@
 
 ### Distributed Architecture☁️：
 
-![](https://picreso.oss-cn-beijing.aliyuncs.com/cloud.png)
+![](http://picreso.oss-cn-beijing.aliyuncs.com/cloud.png)
 
 
 ### Redis acts as a Master, distributes tasks, and deduplicates tasks. Each AirSpider acts as a Slaver, and works as follows
@@ -38,7 +38,7 @@
 
 ## WorkFlow🌊：
 
-![](https://picreso.oss-cn-beijing.aliyuncs.com/flow.png)
+![](http://picreso.oss-cn-beijing.aliyuncs.com/flow.png)
 
 1. **Spiders specify the initial URL and encapsulate it as a Request**
 

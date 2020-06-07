@@ -1,13 +1,13 @@
 <p align="center">
     <img src="https://picreso.oss-cn-beijing.aliyuncs.com/airs.png" width="150px">
-    <h1 align="center"><img src="https://picreso.oss-cn-beijing.aliyuncs.com/fonts.png" /></h1>
+    <h1 align="center"><img src="http://picreso.oss-cn-beijing.aliyuncs.com/fonts.png" /></h1>
     <p align="center" style="font-weight:bold">
         AirSpider🕷️, a Python distributed async web crawler framework based on redis🕷️
       <br>
      		Distributed🌍  -  Asynchronous🏃  -  Light☁️  -  Fast⚡️ - Easy😄
       <br>
   <br>
-      <img src="https://picreso.oss-cn-beijing.aliyuncs.com/codepreview.png">
+      <img src="http://picreso.oss-cn-beijing.aliyuncs.com/codepreview.png">
 </p>    
 
 ---
@@ -66,4 +66,4 @@ pip3 install airspider
 - Make documentation Better📖
 - Add Examples of Crawling 🕷️
 
-![](https://picreso.oss-cn-beijing.aliyuncs.com/monkey.jpg)
+![](http://picreso.oss-cn-beijing.aliyuncs.com/monkey.jpg)
