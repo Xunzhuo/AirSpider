@@ -9,10 +9,10 @@
     </div>
     <br>
     <p align="center" style="font-weight:bold">
-        AirSpider🕷️, a Python distributed async web crawler framework based on redis🕷️
+        Distributed🌍  -  Asynchronous🏃  -  Light☁️  -  Fast⚡️ - Easy😄
       <br>
        <br>
-     		Distributed🌍  -  Asynchronous🏃  -  Light☁️  -  Fast⚡️ - Easy😄
+     		AirSpider🕷️, a Python distributed async web crawler framework based on redis🕷️
       <img src="http://picreso.oss-cn-beijing.aliyuncs.com/codepreview.png">
 </p>    
 
