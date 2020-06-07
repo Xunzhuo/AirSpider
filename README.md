@@ -1,8 +1,9 @@
 <p align="center">
     <img src="https://picreso.oss-cn-beijing.aliyuncs.com/airs.png" width="150px">
     <h1 align="center"><img src="http://picreso.oss-cn-beijing.aliyuncs.com/fonts.png" /></h1>
-    <div align="center"><img src="https://picreso.oss-cn-beijing.aliyuncs.com/ruia-20200607165029224.svg">
+    <div align="center">
 		<img src="https://picreso.oss-cn-beijing.aliyuncs.com/ruia.svg">
+    <img src="https://picreso.oss-cn-beijing.aliyuncs.com/ruia-20200607165029224.svg">
     <img src="https://picreso.oss-cn-beijing.aliyuncs.com/ruia-20200607165030320.svg">
     <img src="https://picreso.oss-cn-beijing.aliyuncs.com/badge-20200607165715259.svg">  
     </div>
