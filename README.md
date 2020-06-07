@@ -7,7 +7,7 @@
      		Distributed🌍  -  Asynchronous🏃  -  Light☁️  -  Fast⚡️ - Easy😄
       <br>
   <br>
-      <img src="https://picreso.oss-cn-beijing.aliyuncs.com/carbon.png">
+      <img src="https://picreso.oss-cn-beijing.aliyuncs.com/codepreview.png">
 </p>    
 
 ---
@@ -50,7 +50,7 @@ pip3 install airspider
 + [API Guide]()👨‍🎓
 + [Plugins]()🔨
 + [Examples]()☁️
-+ [Architecture](/Docs/architecture,md)🏠
++ [Architecture](https://github.com/AirSpiders/AirSpider/blob/master/Docs/architecture.md)🏠
 
 ## TODO✈️
 
@@ -66,3 +66,4 @@ pip3 install airspider
 - Make documentation Better📖
 - Add Examples of Crawling 🕷️
 
+![](https://picreso.oss-cn-beijing.aliyuncs.com/monkey.jpg)

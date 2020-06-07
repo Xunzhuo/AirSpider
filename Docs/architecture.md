@@ -1,10 +1,10 @@
 ### Central Architecture🌞：
 
-![基础架构](/Users/liuxunzhuo/Desktop/Project/AirSpider/Docs/basis.png)
+![](https://picreso.oss-cn-beijing.aliyuncs.com/basis.png)
 
-#### AirSpider共有6大模块，三小模块：
+#### AirSpider has 6 modules and 3 sub-modules：
 
-#### 6大模块：
+#### 6 main modules：
 
 1. 核心模块：Core：
    + 作为核心引擎，连接了其他几大模块，进行工作，工作流以它为中枢进行
@@ -19,7 +19,7 @@
 6. NLP模块：NLP processor
    + 作为附加的模块，主要是对下游数据进行分析，挖掘
 
-#### 3小模块：
+#### 3 sub-modules：
 
 ##### 三个中间件：
 
@@ -29,7 +29,7 @@
 
 ### Distributed Architecture☁️：
 
-![分布式架构](/Users/liuxunzhuo/Desktop/Project/AirSpider/Docs/cloud.png)
+![](https://picreso.oss-cn-beijing.aliyuncs.com/cloud.png)
 
 
 ### Redis acts as a Master, distributes tasks, and deduplicates tasks. Each AirSpider acts as a Slaver, and works as follows
@@ -38,7 +38,7 @@
 
 ## WorkFlow🌊：
 
-![基础架构](/Users/liuxunzhuo/Desktop/Project/AirSpider/Docs/flow.png)
+![](https://picreso.oss-cn-beijing.aliyuncs.com/flow.png)
 
 1. **Spiders specify the initial URL and encapsulate it as a Request**
 
