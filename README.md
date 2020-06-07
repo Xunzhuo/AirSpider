@@ -4,6 +4,7 @@
     <div align="center"><img src="https://picreso.oss-cn-beijing.aliyuncs.com/ruia-20200607165029224.svg">
 		<img src="https://picreso.oss-cn-beijing.aliyuncs.com/ruia.svg">
     <img src="https://picreso.oss-cn-beijing.aliyuncs.com/ruia-20200607165030320.svg">
+    <img src="https://picreso.oss-cn-beijing.aliyuncs.com/badge-20200607165715259.svg">  
     </div>
     <p align="center" style="font-weight:bold">
         AirSpider🕷️, a Python distributed async web crawler framework based on redis🕷️
@@ -29,8 +30,11 @@
 
 ## Features🌲
 
-+ Low coupling between modules, high cohesion, easy expansion, and orderly workflow 🔨
-+ Customized crawler framework, users only need to write a specified part to start high-performance crawler tasks🔥
++ **Quick to Start☑️**
++ **Low Coupling ☑️**
++ **High Cohesion ☑️**
++ **Easy Expansion ☑️**
++ **Orderly Workflow ☑️**
 
 ## Installation🔨
 
@@ -63,7 +67,9 @@ pip3 install airspider
 
 ## Contributing👬
 
-**AirSpider**🕷️ is still under developing, feel free to open issues💬 and pull requests💗
+**AirSpider**🕷️ is still under **Developing**🔨
+
+> Feel free to open issues💬 and pull requests💗
 
 - Report or Fix bugs🌈
 - Build Powerful plugins🔥
