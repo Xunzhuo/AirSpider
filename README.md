@@ -11,7 +11,7 @@
         Distributed🌍  -  Asynchronous🏃  -  Light☁️  -  Fast⚡️ - Easy😄
       <br>
        <br>
-     		AirSpider🕷️, a Python distributed async web crawler framework based on redis🕷️
+     		AirSpider🕷️, a Light and Fast Python Web Crawler Framework Based on Redis🕷️
       <img src="http://picreso.oss-cn-beijing.aliyuncs.com/codepreview.png">
 </p>    
 
