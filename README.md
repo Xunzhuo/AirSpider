@@ -21,7 +21,7 @@
 
 > + **AirSpider** is a high-performance asynchronous crawler framework for developers 🚀
 > + Based on Redis: task distribution, task deduplication, and distributed ☁️
-> 
+>
 
 ## Requirements☁️
 
@@ -58,7 +58,7 @@ pip3 install airspider
 + [API Guide](#)👨‍🎓
 + [Plugins](#)🔨
 + [Examples](#)☁️
-+ [Architecture](https://github.com/AirSpiders/AirSpider/blob/master/Docs/architecture.md)🏠
++ [Architecture](https://github.com/xunzhuo/AirSpider/blob/master/Docs/architecture.md)🏠
 
 ## TODO✈️
 

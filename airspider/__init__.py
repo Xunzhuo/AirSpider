@@ -8,4 +8,4 @@ from .response import Response
 from .spider import Spider
 from .exceptions import IgnoreThisItem
 
-__version__ = "1.0.0"
+__version__ = "2.0.0"
