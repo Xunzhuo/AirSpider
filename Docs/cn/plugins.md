@@ -8,7 +8,7 @@
 
 ## Creating a project
 
-项目名称为：[airspider-ua](https://github.com/airspider-plugins/airspider-ua)，因为**airspider**基于`Python3.6+`，所以扩展`airspider-ua`也亦然，假设你此时使用的是`Python3.6+`，请按照如下操作：
+因为**airspider**基于`Python3.6+`，所以扩展`airspider-ua`也亦然，假设你此时使用的是`Python3.6+`，请按照如下操作：
 
 ```shell
 # 安装包管理工具 pipenv
@@ -103,10 +103,6 @@ async def add_random_ua(spider_ins, request):
 ### Usage
 
 所有的爬虫程序都可以直接使用`airspider-ua`来实现自动添加`User-Agent`
-
-```shell
-pip install airspider-ua
-```
 
 举个实际使用的例子：
 

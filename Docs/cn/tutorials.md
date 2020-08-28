@@ -2,7 +2,7 @@
 
 目标：通过对[Hacker News](https://news.ycombinator.com/news)的爬取来展示如何使用**airspider**，下图红框中的数据就是我们需要爬取的：
 
-![tutorials_01](../images/tutorials_01.png)
+![tutorials_01](https://picreso.oss-cn-beijing.aliyuncs.com/tutorials_01.png)
 
 假设我们将此项目命名为`hacker_news_spider`，项目结构如下：
 
@@ -24,7 +24,7 @@ Notice: 后续爬虫例子都默认使用CSS Selector的规则来提取目标数
 
 这里我们使用`CSS Selector`来提取目标数据，用浏览器打开[Hacker News](https://news.ycombinator.com/news)，右键审查元素：
 
-![tutorials_02](../images/tutorials_02.png)
+![tutorials_02](https://picreso.oss-cn-beijing.aliyuncs.com//tutorials_02.png)
 
 显而易见，每页包含`30`条资讯，那么目标数据的规则可以总结为：
 
@@ -170,7 +170,7 @@ if __name__ == '__main__':
 
 数据库中可以看到：
 
-![tutorials_03](../images/tutorials_03.jpg)
+![tutorials_03](https://picreso.oss-cn-beijing.aliyuncs.com//tutorials_03.jpg)
 
 通过这个例子，你已经基本掌握了**airspider**的`Item`、`Middleware`、`Request`等模块的用法，结合自身需求，你可以编写任何爬虫，例子代码见[hacker_news_spider](https://github.com/xunzhuo/airspider/tree/master/examples/hacker_news_spider)
 
