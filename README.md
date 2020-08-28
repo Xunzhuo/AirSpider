@@ -1,8 +1,6 @@
 <p align="center">
     <img src="https://picreso.oss-cn-beijing.aliyuncs.com/airs.png" width="150px">
-    <h1 align="center">
-        <img src="http://picreso.oss-cn-beijing.aliyuncs.com/font.png" />
-    </h1>
+    <h1 align="center"><img src="http://picreso.oss-cn-beijing.aliyuncs.com/font.png" /></h1>
     <p align="center" style="font-weight:bold">
         Distributed🌍  -  Asynchronous🏃  -  Light☁️  -  Fast⚡️ - Easy😄
       <br>
