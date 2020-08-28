@@ -15,13 +15,11 @@
 
 ``` shell
 # For Linux & Mac
-pip install -U airspider[uvloop]
+pip3 install airspider
 
 # For Windows
-pip install -U airspider
+pip3 install airspider
 
-# New features
-pip install git+https://github.com/xunzhuo/airspider
 ```
 
 ## Code Snippets

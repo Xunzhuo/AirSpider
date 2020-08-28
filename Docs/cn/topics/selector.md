@@ -74,9 +74,3 @@ def test_re_field():
 ## How It Works?
 
 定好`CSS Selector`或`XPath`规则，然后利用`lxml`实现对目标`html`进行目标数据的提取
-
-### 关于`RegexField`
-
-详细信息请参阅[英文文档][fields_doc_en]。
- 
-[fields_doc_en]: https://github.com/xunzhuo/airspider/blob/master/docs/en/topics/selector.md
