@@ -1,12 +1,8 @@
 <p align="center">
     <img src="https://picreso.oss-cn-beijing.aliyuncs.com/airs.png" width="150px">
-<<<<<<< HEAD
-    <h1 align="center"><img src="http://picreso.oss-cn-beijing.aliyuncs.com/font.png" /></h1>
-=======
     <h1 align="center">
-        <img src="http://picreso.oss-cn-beijing.aliyuncs.com/fonts.png" />
+        <img src="http://picreso.oss-cn-beijing.aliyuncs.com/font.png" />
     </h1>
->>>>>>> 8cd98d349204de79e4a108fa2801af6f752c62ca
     <p align="center" style="font-weight:bold">
         Distributed🌍  -  Asynchronous🏃  -  Light☁️  -  Fast⚡️ - Easy😄
       <br>
@@ -14,6 +10,7 @@
      		AirSpider🕷️, a Light and Fast Python Web Crawler Framework Based on Redis🕷️
       <img src="http://picreso.oss-cn-beijing.aliyuncs.com/airdemo.png">
 </p>    
+
 
 
 ---
@@ -53,13 +50,20 @@ pip3 install airspider
 ---------------------------
 ```
 
-## Documents🔥
++ ## Documents🔥
 
-+ [Quick Start](#)🕷️
-+ [API Guide](#)👨‍🎓
-+ [Plugins](#)🔨
-+ [Examples](#)☁️
-+ [Architecture](https://github.com/xunzhuo/AirSpider/blob/master/Docs/architecture.md)🏠
+  + [Introduction](Docs/introduction.md)：介绍airspider
+  + [Tutorials](Docs/tutorials.md)：使用airspider快速编写一个稳健的爬虫
+  + [Plugins](Docs/plugins.md)：编写airspider扩展
+
+  ## Topics
+
+  - [Item](Docs/topics/item.md)：定义爬虫的目标字段
+  - [Selector](Docs/topics/selector.md)：从HTML中提取出目标字段
+  - [Request](Docs/topics/request.md)：请求并抓取目标网站资源
+  - [Response](Docs/topics/response.md)：进一步封装响应内容
+  - [Middleware](Docs/topics/middleware.md)：使爬虫支持第三方扩展
+  - [Spider](Docs/topics/spider.md)：爬虫程序的入口
 
 ## TODO✈️
 
