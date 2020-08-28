@@ -1,12 +1,6 @@
 <p align="center">
     <img src="https://picreso.oss-cn-beijing.aliyuncs.com/airs.png" width="150px">
     <h1 align="center"><img src="http://picreso.oss-cn-beijing.aliyuncs.com/fonts.png" /></h1>
-    <div align="center">
-		<img src="https://picreso.oss-cn-beijing.aliyuncs.com/ruia.svg">
-    <img src="https://picreso.oss-cn-beijing.aliyuncs.com/ruia-20200607165029224.svg">
-    <img src="https://picreso.oss-cn-beijing.aliyuncs.com/ruia-20200607165030320.svg">
-    </div>
-    <br>
     <p align="center" style="font-weight:bold">
         Distributed🌍  -  Asynchronous🏃  -  Light☁️  -  Fast⚡️ - Easy😄
       <br>
