@@ -8,7 +8,7 @@
       <br>
        <br>
      		AirSpider🕷️, a Light and Fast Python Web Crawler Framework Based on Redis🕷️
-      <img src="http://picreso.oss-cn-beijing.aliyuncs.com/example.png">
+      <img src="http://picreso.oss-cn-beijing.aliyuncs.com/airdemo.png">
 </p>    
 
 ---
