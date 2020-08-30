@@ -1,52 +1,48 @@
 <p align="center">
     <img src="https://picreso.oss-cn-beijing.aliyuncs.com/airs.png" width="150px">
-    <h1 align="center"><img src="http://picreso.oss-cn-beijing.aliyuncs.com/font.png" /></h1>
-    <p align="center" style="font-weight:bold">
-        Distributed🌍  -  Asynchronous🏃  -  Light☁️  -  Fast⚡️ - Easy😄
-      <br>
-       <br>
-     		AirSpider🕷️, a Light and Fast Python Web Crawler Framework Based on Redis🕷️
-      <img src="http://picreso.oss-cn-beijing.aliyuncs.com/airdemo.png">
-</p>    
+  <h1 align="center"><img src="http://picreso.oss-cn-beijing.aliyuncs.com/font.png" /></h1>
+  <p align="center" style="font-weight:bold">
+    Distributed  -  Asynchronous  - Easy-to-use
+  <br>
+   <br>
+ 		An Easy-to-use and Fast Python Spider Framework
+  <img src="http://picreso.oss-cn-beijing.aliyuncs.com/airdemo.png">
+</p>
 
 
 
 
 ---
 
-## Overview👀
+## Overview
 
-> + **AirSpider** is a high-performance asynchronous crawler framework for developers 🚀
+> + **AirSpider** is a high-performance asynchronous crawler framework for developers 
 > + Based on Redis: task distribution, task deduplication, and distributed ☁️
->
 
-## Requirements☁️
+## Requirements
 
-- Python 3.6➕
-- Works on Linux, Windows, macOS🍎
+- Python 3.6
+- Works on Linux, Windows, macOS
 
-## Features🌲
+## Features
 
-+ **Quick to Start ☑️**
-+ **Low Coupling ☑️**
-+ **High Cohesion ☑️**
-+ **Easy Expansion ☑️**
-+ **Orderly Workflow ☑️**
++ **Quick to Start **
++ **Low Coupling **
++ **High Cohesion **
++ **Easy Expansion **
++ **Orderly Workflow **
 
-## Installation🔨
+## Installation
 
 ``` shell
----------------------------
-
-# For Linux && MacOS🔥
+# For Linux && MacOS
 pip3 install airspider
 
----------------------------
 
-# For Windows🔥
+# For Windows
 pip3 install airspider
 
----------------------------
+
 ```
 
   ## Documents
@@ -64,20 +60,20 @@ pip3 install airspider
   - [Middleware](https://github.com/Xunzhuo/AirSpider/tree/master/Docs/cn/topics/middleware.md)：Make Airspider Support to Extensions
   - [Spider](https://github.com/Xunzhuo/AirSpider/tree/master/Docs/cn/topics/spider.md)：Entrance for AirSpider
 
-## TODO✈️
+## TODO
 
-+ Complete Plugins of Redis🔥
-+ Complete Distributed Architecture☁️
++ Complete Plugins of Redis
++ Complete Distributed Architecture
 
-## Contributing👬
+## Contributing
 
-**AirSpider**🕷️ is still under **Developing**🔨
+**AirSpider**🕷️ is still under **Developing**
 
-> Feel free to open issues💬 and pull requests💗
+> Feel free to open issues💬 and pull requests
 
-- Report or Fix bugs🌈
-- Build Powerful plugins🔥
-- Make documentation Better📖
-- Add Examples of Spiders 🕷️
+- Report or Fix bugs
+- Build Powerful plugins
+- Make documentation Better
+- Add Examples of Spiders 
 
 ![](http://picreso.oss-cn-beijing.aliyuncs.com/monkey.jpg)
