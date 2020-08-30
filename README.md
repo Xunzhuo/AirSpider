@@ -78,6 +78,6 @@ pip3 install airspider
 - Report or Fix bugs🌈
 - Build Powerful plugins🔥
 - Make documentation Better📖
-- Add Examples of Crawling 🕷️
+- Add Examples of Spiders 🕷️
 
 ![](http://picreso.oss-cn-beijing.aliyuncs.com/monkey.jpg)

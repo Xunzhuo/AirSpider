@@ -17,7 +17,7 @@ class DoubanItem(Item):
 
 
 class DoubanSpider(Spider):
-    name = "DoubanSpider"
+    name = "AirSpider"
     start_urls = ["https://movie.douban.com/top250"]
     request_config = {"RETRIES": 3, "DELAY": 0, "TIMEOUT": 20}
     concurrency = 10
@@ -42,20 +42,6 @@ class DoubanSpider(Spider):
     async def process_item(self, item: DoubanItem):
         self.logger.info(item)
 
-
-def multi_spider_start():
-    import asyncio
-
-    async def start():
-        await asyncio.gather(
-            DoubanSpider.async_start(cancel_tasks=False),
-            DoubanSpider.async_start(cancel_tasks=False),
-        )
-        await DoubanSpider.cancel_all_tasks()
-
-    asyncio.get_event_loop().run_until_complete(start())
-
-
 if __name__ == "__main__":
     DoubanSpider.start()
-    # multi_spider_start()
+
