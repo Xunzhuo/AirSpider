@@ -26,11 +26,11 @@
 
 ## Features
 
-+ **Quick to Start **
-+ **Low Coupling **
-+ **High Cohesion **
-+ **Easy Expansion **
-+ **Orderly Workflow **
++ Quick to Start 
++ Low Coupling 
++ High Cohesion
++ Easy Expansion 
++ Orderly Workflow 
 
 ## Installation
 
