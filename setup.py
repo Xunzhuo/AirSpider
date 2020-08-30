@@ -11,7 +11,7 @@ _version_re = re.compile(r"__version__\s+=\s+(.*)")
 PY_VER = sys.version_info
 
 if PY_VER < (3, 6):
-    raise RuntimeError("AirSpider doesn't support Python version prior 3.6")
+    raise RuntimeError("AirSpider doesn't support Python version < 3.6")
 
 
 def read_version():
@@ -35,7 +35,7 @@ setup(
     name="AirSpider",
     version=read_version(),
     author="Liu Xunzhuo",
-    description="A light and fast python Web crawler framework based on asyncio.",
+    description="An Easy-to-use and Fast Python Spider Framework",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
     author_email="mixdeers@gmail.com",
