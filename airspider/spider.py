@@ -102,7 +102,7 @@ class Spider(SpiderHook):
     Spider is used for control requests better
     """
 
-    name = "airspider"
+    name = "AirSpider"
     request_config = None
 
     # Default values passing to each request object. Not implemented yet.
@@ -141,7 +141,7 @@ class Spider(SpiderHook):
         """
         if not self.start_urls or not isinstance(self.start_urls, collections.Iterable):
             raise ValueError(
-                "airspider spider must have a param named start_urls, eg: start_urls = ['https://www.github.com']"
+                "AirSpider spider must have a param named start_urls, eg: start_urls = ['https://www.github.com']"
             )
 
         self.loop = loop

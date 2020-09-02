@@ -17,7 +17,6 @@ class DoubanItem(Item):
 
 
 class DoubanSpider(Spider):
-    name = "AirSpider"
     start_urls = ["https://movie.douban.com/top250"]
     request_config = {"RETRIES": 3, "DELAY": 0, "TIMEOUT": 20}
     concurrency = 10
